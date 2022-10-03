@@ -44,6 +44,15 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public String friends(){
+        return "I have many friends! One of them is an axolotl and another is a dino!";
+    }
+
+
+    public void favoriteactivity(String activity) {
+        System.out.println("I don't like " + activity + " that much. I like sleeping!");
+    }
 }
 //Edit
 
